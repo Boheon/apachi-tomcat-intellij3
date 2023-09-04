@@ -2,54 +2,39 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="chapter07:war exploded" />
+      <artifact name="chapter:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f898e28-0b49-4b96-9ec4-ee325e079da8" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/java/org/galapagos/filters/CharacterEncodngFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/java/org/galapagos/travel/TravelListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/webapp/WEB-INF/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/webapp/WEB-INF/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/webapp/WEB-INF/travel_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/webapp/WEB-INF/travel_list2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/org/galapagos/ex1/ElServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/org/galapagos/vo/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/java/org/galapagos/vo/VoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/el01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/el02.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/el03.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/exam02.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/exam03.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/exam04.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/jstl01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/jstl02.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/login_info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/logout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08/src/main/webapp/visit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/apt/index.apt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/site.xml" afterDir="false" />
+    <list default="true" id="0f898e28-0b49-4b96-9ec4-ee325e079da8" name="변경" comment="JSTL연습">
+      <change afterPath="$PROJECT_DIR$/chapter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/src/main/java/org/galapagos/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/src/main/java/org/galapagos/command/DetailCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/src/main/java/org/galapagos/command/ListCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/src/main/java/org/galapagos/controller/FrontControllerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/src/main/java/org/galapagos/vo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/src/main/webapp/views/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/src/main/webapp/views/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter/src/main/webapp/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/org/galapagos/ex01/CartBasketCookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/org/galapagos/ex01/CartBasketServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/org/galapagos/ex01/CartDeleteCookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/org/galapagos/ex01/CartDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/org/galapagos/ex01/CartSaveCookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/org/galapagos/ex01/CartSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/java/org/galapagos/filters/CharacterEncodngFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/main/webapp/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +44,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,13 +85,13 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "D:/IdeaProjects/base/chapter08/src/main/webapp",
+    "last_opened_file_path": "D:/IdeaProjects/base/chapter09/src/main/java/org/galapagos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editing.templates",
@@ -119,17 +105,102 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\base\chapter09\src\main\java\org\galapagos" />
       <recent name="D:\IdeaProjects\base\chapter08\src\main\webapp" />
       <recent name="D:\IdeaProjects\base\chapter08\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\base\chapter\src\main\webapp\views" />
       <recent name="D:\IdeaProjects\base\chapter08\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.galapagos.filters" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat 서버.list.jsp">
+    <configuration name="chapter09의 전부" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter09" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="product.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/base/chapter09/src/main/webapp/product.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.80" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.80" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="chapter07:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/chapter07_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter07:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="list.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.80" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:10000/views/list.jsp" />
+      <deployment>
+        <artifact name="chapter:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/chapter_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="dbbb3708-32e5-4ccc-be65-8b2c40249bf3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="travel_list.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.80" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:10000/WEB-INF/travel_list.jsp" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
@@ -221,6 +292,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat 서버.list.jsp" />
+        <item itemvalue="JavaScript 디버그.product.html" />
+        <item itemvalue="JUnit.chapter09의 전부" />
         <item itemvalue="Tomcat 서버.travel_list.jsp" />
       </list>
     </recent_temporary>
@@ -234,8 +308,18 @@
       <option name="presentableId" value="Default" />
       <updated>1693529643199</updated>
       <workItem from="1693529644350" duration="6852000" />
-      <workItem from="1693540390014" duration="13698000" />
+      <workItem from="1693540390014" duration="13973000" />
+      <workItem from="1693786290325" duration="19238000" />
     </task>
+    <task id="LOCAL-00001" summary="JSTL연습">
+      <option name="closed" value="true" />
+      <created>1693557536788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693557536789</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,5 +327,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="JSTL연습" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSTL연습" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter09/src/main/java/org/galapagos/ex01/CartSaveCookieServlet.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
